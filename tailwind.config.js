@@ -11,12 +11,18 @@ module.exports = {
 				'very-dark-blue': 'hsl(212, 21%, 14%)',
 				'dark-grayish-blue': 'hsl(228, 12%, 48%)',
 				'white': 'hsl(0, 0%, 100%)'
+			},
+			backgroundColor: {
+				'dark-cyan': 'hsl(158, 36%, 37%)',
+			},
+			fontFamily: {
+				montserrat: ["Montserrat"],
+				fraunces: ["Fraunces"]
+			},
+			letterSpacing: {
+				'custom-wide': '.5em'
 			}
 		},
-		fontFamily: {
-			montserrat: ["Montserrat"],
-			fraunces: ["Fraunces"]
-		}
 	},
 	plugins: [],
 }
